@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 
 var stores = [];
@@ -123,17 +123,30 @@ function createTableFooter() {
   tblEl.appendChild(tfootEl);
 }
 
-
 (function run() {
   createTable();
   createTableHeader();
   createTableBody();
 })();
 
-new Store('1St anf Pike', 23, 65, 6.3);
+new Store('1St and Pike', 23, 65, 6.3);
 new Store('SeaTac Airport', 3, 24, 1.2);
 new Store('Seattle Center', 11, 38, 3.7);
 new Store('Capitol Hill', 20, 38, 2.3);
 new Store('Alki', 2, 16, 4.6);
 
+document.getElementById('sales-form').addEventListener('submit', function(event) {
+  event.preventDefault();
 
+  var name = event.target.storename.value;
+  var min = event.target.min.value;
+  var max = event.target.max.value;
+  var avg = event.target.avg.value;
+
+  new Store(name, min, max, avg);
+
+  event.target.storename.value = '';
+  event.target.min.value = '';
+  event.target.max.value = '';
+  event.target.avg.value = '';
+});
