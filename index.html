@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Cookie Stand</title>
-  </head>
-  <body>
-    <header><h1>Salmon Cookies project</h1></header>
-    <main id='main-content'></main>
-      <footer></footer>
-    <script src="apps.js">   
-    </script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>
+    <p>Salmon Cookies</P>
+    <div>
+      <p class='Salmon Cookies'></p>
+
+    </div>
+    <img src="img/salmon.png">
+    <img src="img/chinook.jpg">
+  </header>
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="index.html">About</a>
+  </div>
+  <main id="main-content">
+    <form id="sales-form">
+      <label>Store Name
+        <input name="storename" type="text" placeholder="Bellevue Square">
+      </label>
+
+      <label>Minimum Customers Per Hour
+        <input name="min" type="number" placeholder="23">
+      </label>
+
+      <label>Maximum Customers Per Hour
+        <input name="max" type="number" placeholder="45">
+      </label>
+
+      <label for="avg">Average Cookies Per Customer</label>
+      <input id="avg" name="avg" type="number" step='0.01' placeholder="4.3">
+
+      <button type="submit">Submit</button>
+    </form>
+
+  </main>
+  <img src="img/family.jpg">
+  <img src="img/cutter.jpeg">
+  <img src="img/fish.jpg">
+  <img src="img/frosted-cookie.jpg">
+
+  <footer>
+  </footer>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+  <script src="app.js"></script>
+</body>
+
 </html>

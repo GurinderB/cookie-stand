@@ -1,12 +1,12 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(102, 207, 241);
     color: white;
     text-align: left;
     margin-left: 25px;
 }
 
 header {
-color: lightgray;
+color: rgb(253, 245, 245);
 background-color: blue;
 font-size:60px;
 display: list-item;

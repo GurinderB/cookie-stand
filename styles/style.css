@@ -1,0 +1,50 @@
+header {
+    border: 2px solid rgb(236, 251, 255);
+    display: inline-block;
+    position: relative;
+    color: #e0bfbf;
+    background-color: rgb(254, 254, 254);
+    font-size:60px;
+    display: list-item;
+    text-align: center; 
+}
+body {
+    background-color:#fefefe;
+    color: black;
+}
+h1 {
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul {
+    border: 2px solid black;
+    list-style-type: disc;
+}
+
+ol {
+    border: 2px solid black;
+    list-style-type: decimal;    
+}
+li { 
+    color: darkgreen
+}
+
+p {
+    font-family: verdana;
+    font-size: 22px;
+}
+
+main {
+    background-color: rgb(236, 251, 255);
+    margin-bottom: 60px;
+  }
+
+footer {
+    background-color:#dec3c39c;
+    height: 10px; 
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
