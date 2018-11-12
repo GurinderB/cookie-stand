@@ -1,1 +1,51 @@
+body {
+    background-color: rgb(102, 207, 241);
+    color: white;
+    text-align: left;
+    margin-left: 25px;
+}
 
+header {
+color: rgb(253, 245, 245);
+background-color: blue;
+font-size:60px;
+display: list-item;
+text-align: center; 
+}
+
+h1 {
+font-family: verdana;
+font-size: 30px;
+text-align: center;
+}
+
+ul {
+border: 2px solid black;
+list-style-type: disc;
+}
+
+ol {
+border: 2px solid black;
+list-style-type: decimal;    
+}
+li { 
+color: darkgreen
+}
+
+p {
+font-family: verdana;
+font-size: 22px;
+}
+
+main {
+background-color: rgb(109, 135, 143);
+margin-bottom: 60px;
+}
+
+footer {
+background-color: #af6b6b;
+height: 50px; 
+width: 100%;
+position: fixed;
+bottom: 0;
+}
